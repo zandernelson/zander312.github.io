@@ -1,0 +1,31 @@
+h1 {
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 50px;
+	text-align: center;
+}
+
+
+.nav{
+	text-align: center;
+	margin: 80px;
+}
+
+.list{
+	font-family: Arial;
+	font-weight: normal;
+	font-size: 30px;
+	color: black;
+	text-decoration: none;
+	display: inline-block;
+	margin: 20px;
+
+}
+
+.list:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	color: #8b0000;
+}
