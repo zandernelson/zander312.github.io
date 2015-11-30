@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Good Morning Digital Nomads!</title>
+</head>
+
+<link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
+<link rel="stylesheet" type="text/css" href="../stylesheets/blog.css">
+
+<body>
+	<header><h1>Good Morning Digital Nomads!</h1></header>
+
+	<h3>CSS Positioning</h3>
+	
+	<p class="blog">
+Static is the "default" state for an element that is put on a webpage. The element will flow onto the page as it normally would when it is static. This is a rarely used position and it is not really useful.<br><br>
+
+
+
+Relative is confusing, but an example may help a bit. Sometimes you want to move something around based on where it was originally right? Well that is what relative is for. If you set position: relative; on an element but do not set any other attributes it will stay right where it was before, no change. But if you begin to adjust the attributes (top, right, bottom, left) the element will begin to move around relative to where it was before. So if you move the element down a few pixels it will be a few pixels below where it was initially etc. The ability to shift an element around based on its regular position is pretty useful and has many applications.<br><br>
+
+Absolute positioning allows you to place an element exactly where you want it to go. One important thing to consider with absolute positioning is that its positioning attributes will be relative to its next parent element with either a relative or absolute positioning. Also the elements that are positioned using absolute are completely removed from the flow of the page. An element with this type of positioning is not affected by other elements and it doesn't affect other elements. This is a serious thing to consider every time you use absolute positioning. It's overuse or improper use can limit the flexibility of your site.<br><br>
+
+Finally we come to fixed positioning. Fixed positioning is also rarely used but it is also very simple. A fixed element is positioned relative to the page or (viewport)  someone if looking at. If you fix an element to a page and scroll up and down that element will stay exactly where it is positioned. So wherever you place a fixed element it will remain in that position regardless of anything, whether you scroll or resize the page it will still be in it's same position.</p>
+
+
+</body>
+</html>
