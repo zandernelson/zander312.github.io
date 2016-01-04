@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Good Morning Digital Nomads!</title>
+</head>
+
+<link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
+<link rel="stylesheet" type="text/css" href="../stylesheets/blog.css">
+
+<body>
+	<header><h1>Good Morning Digital Nomads!</h1></header>
+
+	<h3>Ruby Hash vs. JavascriptObjects</h3>
+	
+	<p class="blog">
+Hashes and objects are very similar data structures. They even look alike.<br><br>
+jim = { name: "Jim", age: 25, shoe_size: 9 }<br><br>
+var Jim = { name: "Jim", age: 25, shoe_size: 9 };<br><br>
+But there is one distinct difference between a ruby hash and a javascript object. Javascript objects can take a function as a value. Since methods in Ruby aren't objects, you can't assign a method as a hash value. This is a handy bit of functionality possessed by JavaScript objects, with no direct equivalent for Ruby hashes. If you wanted to achieve something similar in Ruby you would need to use classes.<br>
+	</p>
+
+
+</body>
+</html>
