@@ -78,3 +78,40 @@
 	color: white;
 }
 
+
+
+/*SQL TABLE*/
+
+.trow
+{
+    height: 50px !important; /* Overwrite any previous rules */
+    background-color: #FFFFFF;
+    margin: 0px !important
+}
+
+table { 
+margin-left: 5%;
+margin-right: 5%;
+color: #333; /* Lighten up font color */
+font-family: Helvetica, Arial, sans-serif; /* Nicer font */
+width: 90%; 
+border-collapse: 
+collapse; border-spacing: 0; 
+}
+
+
+
+td { border: 1px solid #CCC; height: 200px; } /* Make cells a bit taller */
+
+
+th {
+background: #F3F3F3; /* Light grey background */
+font-weight: bold; /* Make sure they're bold */
+}
+
+td {
+background: #FAFAFA; /* Lighter grey background */
+text-align: center; /* Center our text */
+}
+
+
