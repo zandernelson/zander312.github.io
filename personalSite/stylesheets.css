@@ -24,6 +24,7 @@ div {
   float: left;
   width:86px;
   height: 464px;
+  cursor: pointer;
 
 }
 
@@ -36,6 +37,7 @@ p {
   margin-bottom: 7%;
   margin-top: 17%;
   padding-left: 9%;
+  cursor: pointer;
 
 }
 
