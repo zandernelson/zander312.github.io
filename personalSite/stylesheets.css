@@ -12,8 +12,6 @@ div {
 
 #main {
 	display: block;
-	margin-right: auto;
-	margin-left: auto;
 }
 
 #menu {
@@ -21,6 +19,36 @@ div {
 	float: left
 }
 
-#main:hover {
-	opacity: 0.6;
+
+#vert {
+  float: left;
+  width:86px;
+  height: 464px;
+
+}
+
+p {
+  font-family:courier;
+  font-size:34px;
+  width:31px;
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom: 7%;
+  margin-top: 17%;
+  padding-left: 9%;
+
+}
+
+#centerPic {
+	width:757px;
+	height: 464px;
+	border-style: solid;
+	border-width: 1px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+#vert:hover {
+	background-color: #f2f2f2
 }
