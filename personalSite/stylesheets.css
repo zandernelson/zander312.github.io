@@ -1,0 +1,26 @@
+h1{
+	font-family: courier;
+	font-weight:normal;
+	text-align: center;
+	margin-top: 4%;
+	margin-bottom: 6%;
+}
+
+div {
+	height: 464;
+}
+
+#main {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#menu {
+	position: absolute;
+	float: left
+}
+
+#main:hover {
+	opacity: 0.6;
+}
