@@ -1,4 +1,4 @@
-h1{
+h1 {
 	font-family: courier;
 	font-weight:normal;
 	text-align: center;
@@ -6,21 +6,16 @@ h1{
 	margin-bottom: 6%;
 }
 
-div {
+#centerContainer {
 	height: 464;
 }
 
-#main {
+#centerPic {
 	display: block;
 }
 
-#menu {
-	position: absolute;
-	float: left
-}
 
-
-#vert {
+#btnOuter {
   float: left;
   width:86px;
   height: 464px;
@@ -28,7 +23,7 @@ div {
 
 }
 
-p {
+#btnInner {
   font-family:courier;
   font-size:34px;
   width:31px;
@@ -41,7 +36,7 @@ p {
 
 }
 
-#centerPic {
+#centerOuter {
 	width:757px;
 	height: 464px;
 	border-style: solid;
@@ -51,6 +46,35 @@ p {
 
 }
 
-#vert:hover {
-	background-color: #f2f2f2
+#btnOuter:hover {
+	background-color: #ffffe5
+}
+
+#outerMenu {
+  border-style: solid;
+  border-width: 1px;
+  width:293px;
+  height:464px;
+  font-family:courier;
+  font-size:38px;
+  position: absolute;
+  float: left
+}
+
+#innerMenu {
+  width:183px;
+  height:322px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.menuItem {
+  display:block;
+  margin-top:50px;
+  cursor: pointer;
+}
+
+.menuItem:hover {
+  opacity:0.4;
+
 }

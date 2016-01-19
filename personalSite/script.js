@@ -1,8 +1,8 @@
 $(document).ready(function(){
-	$('#menu').hide();
-	$('#vert').click(function(){
-		$('#menu').fadeToggle('slow');
-		$('')
+  $("#outerMenu").hide();
+  $(".menuItem").hide();
+  $( "#btnOuter" ).click(function(){
+  	$("#outerMenu").slideToggle(1000, 'linear');
+    $(".menuItem").fadeToggle(2000);
 	});
-
 });
