@@ -1,4 +1,5 @@
 $(document).ready(function(){
+	$("#pc-animtation").hide()
 	colorTrans()
 	keyAnimation()
 	animatePc()
