@@ -1,6 +1,6 @@
 body {
 	background-color: #FEFEFA;
-	transition: background-color 5s ease;
+	transition: background-color 5s ease-in;
 }
 
 
