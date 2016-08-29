@@ -4,8 +4,8 @@ $(document).ready(function(){
 	keyAnimation()
 	animatePc()
 	setTimeout(function(){
-		$("#pc-animation").fadeIn(5000)
-	}, 4000)
+		$("#pc-animation").fadeIn("slow")
+	}, 2000)
 
 
 
