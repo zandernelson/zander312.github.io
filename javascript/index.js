@@ -1,8 +1,11 @@
 $(document).ready(function(){
-	$("#pc-animtation").hide()
+	$("#pc-animation").hide()
 	colorTrans()
 	keyAnimation()
 	animatePc()
+	setTimeout(function(){
+		$("#pc-animation").fadeIn(5000)
+	}, 4000)
 
 
 
