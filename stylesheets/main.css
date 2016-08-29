@@ -9,7 +9,7 @@ body {
 
 #blurb {
 	width: 400px;
-	margin: 0 auto;
+	margin: 20px auto;
 	color: #333333;
 	transition: color 5s ease;
 }
@@ -41,6 +41,8 @@ a {
 .fa {
 	margin-right: 23px;
 }
+
+
 
 /*KEYBOARD CSS*/
 
@@ -93,22 +95,30 @@ ul {
 /* ANIMATION CONTAINER  */
 
 #pc-animation {
-	width: 400px;
+	width: 385px;
 	margin: 100px auto;
 }
 
+@media only screen and (max-width: 400px) {
+	#blurb {
+		width: 375px;
+	}
+	#pc-animation {
+		margin-left: -4px;
+	}
+}
 
 /* PC SCREEN ANIMATION */
 
 #pc-container {
-	width: 335px;
+	width: 319px;
 	height: 227px;
 	margin: 0 auto;
 }
 
 #screen {
 	margin-right: -25px;
-  width: 310px;
+  width: 295px;
   height: 216px;
   border: #FEFEFA solid 2px;
   padding-left: 10px;
@@ -119,7 +129,7 @@ ul {
 }
 
 .data-stream {
-  width: 305px;
+  width: 288px;
   height: 15px;
   margin-left: 3px;
   margin-top: 14px;
@@ -128,26 +138,26 @@ ul {
 .data {
   border: #FEFEFA solid 1px;
   height: 12px;
-  width: 40px;
+  width: 30px;
   float: left;
   margin-right: 2px;
   margin-left: 2px;
 }
 
 .data-sm {
-  width: 56px;
+  width: 46px;
 }
 
 .data-lg {
-  width: 116px;
+  width: 129px;
 }
 
 .data-xs {
-  width: 26px;
+  width: 16px;
 }
 
 .data-md {
-  width: 83px;
+  width: 73px;
 }
 
 .active-data {
