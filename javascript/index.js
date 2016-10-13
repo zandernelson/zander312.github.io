@@ -5,7 +5,7 @@ $(document).ready(function(){
 	animatePc()
 	setTimeout(function(){
 		$("#pc-animation").fadeIn("slow")
-	}, 2000)
+	}, 700)
 
 
 

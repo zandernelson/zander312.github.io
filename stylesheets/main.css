@@ -1,16 +1,16 @@
-
 /*INDEX STYLING*/
 body {
 	background-color: #FEFEFA;
-	transition: background-color 3s ease-in;
+	transition: background-color 1s ease-in;
 }
 
 
+/*CONTENT STYLING*/
 #blurb {
 	width: 400px;
 	margin: 20px auto;
 	color: #333333;
-	transition: color 3s ease-in;
+	transition: color 1s ease-in;
 }
 
 .title {
@@ -32,19 +32,35 @@ body {
 	font-weight: lighter;
 }
 
+
+/*LINKS AND NAVIGATION*/
 a {
 	color: inherit;
 	text-decoration: none;
 }
 
 .fa {
-	margin-right: 23px;
+  transition: transform .5s ease-out;
+}
+
+.fa:hover {
+  transform: rotate(360deg);
+}
+
+#navbar {
+  display: flex;
+  justify-content: space-around;
 }
 
 
+/* ANIMATION CONTAINER  */
+#pc-animation {
+	width: 385px;
+	margin: 100px auto;
+}
+
 
 /*KEYBOARD CSS*/
-
 #keyboard-container {
   width: 310px;
   height: 82px;
@@ -59,9 +75,6 @@ ul {
   list-style-type: none;
 }
 
-#keys-container {
-  margin: auto;
-}
 
 .key {
   text-align: none;
@@ -91,47 +104,22 @@ ul {
 }
 
 
-/* ANIMATION CONTAINER  */
-
-#pc-animation {
-	width: 385px;
-	margin: 100px auto;
-}
-
-@media only screen and (max-width: 400px) {
-	#blurb {
-		width: 375px;
-		margin-top: 0px
-	}
-	#pc-animation {
-		margin-left: -4px;
-	}
-}
 
 /* PC SCREEN ANIMATION */
-
-#pc-container {
-	width: 319px;
-	height: 227px;
-	margin: 0 auto;
-}
-
 #screen {
-	margin-right: -25px;
-  width: 295px;
+  margin: auto;
+  margin-bottom: 40px;
+  width: 310px;
   height: 216px;
-  border: #FEFEFA solid 1px;
-  padding-left: 10px;
-  padding-right: 10px;
+  border: #FEFEFA solid 4px;
   padding-top: 0px;
   border-radius: 8px;
-  transform: perspective(50px) rotateX(-5deg);
 }
 
 .data-stream {
   width: 288px;
   height: 15px;
-  margin-left: 3px;
+  margin: auto;
   margin-top: 14px;
 }
 
