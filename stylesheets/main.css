@@ -1,8 +1,4 @@
-@media (min-width:320px) {
-  #blurb{
-    width:340px;
-  }
-}
+
 
 
 
@@ -175,5 +171,16 @@ ul {
 
 .active-data-5 {
   background: #561420;
+}
+
+
+@media screen and (max-width: 400px) {
+  #blurb{
+    width:330px;
+  }
+
+  body {
+    width:379px;
+  }
 }
 
