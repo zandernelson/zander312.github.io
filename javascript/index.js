@@ -2,7 +2,7 @@ $(document).ready(function(){
 	$("#pc-animation").hide()
 	colorTrans()
 	keyAnimation()
-	animatePc()
+  animatePc()
 	setTimeout(function(){
 		$("#pc-animation").fadeIn("slow")
 	}, 700)
@@ -53,7 +53,16 @@ function randDataId(){
 
 function animatePc(){
 	setInterval(function(){
-  	$(randDataId()).toggleClass("active-data")
+  	$(randDataId()).toggleClass("active-data-1")
+  }, 400)
+}
+
+//animate screen with colors
+function animatePcColor(){
+	var classArr = ["active-data-1", "active-data-2", "active-data-3", "active-data-4", "active-data-5"]
+	setInterval(function(){
+		var activeClass = classArr[Math.floor(Math.random() * classArr.length)];
+  	$(randDataId()).toggleClass(activeClass)
   }, 400)
 }
 
