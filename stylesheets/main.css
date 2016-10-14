@@ -1,5 +1,7 @@
-@media only screen and (max-device-width: 320px) {
-
+@media (min-width:320px) {
+  #blurb{
+    width:340px;
+  }
 }
 
 
