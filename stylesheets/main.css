@@ -181,7 +181,14 @@ ul {
 
   #pc-animation{
     width:370px;
+    margin-top: 10px;
   }
+
+  #screen{
+    margin-bottom: 10px;
+  }
+
+
 
 }
 
