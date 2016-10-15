@@ -27,6 +27,12 @@ body {
 	margin: 0px;
 }
 
+#pipes {
+  font-weight: lighter;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
 .text {
 	font-family: 'Lato', sans-serif;
 	font-weight: lighter;
