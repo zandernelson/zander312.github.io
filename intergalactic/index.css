@@ -2,12 +2,12 @@ body {
   margin: 0;
   overflow-x: hidden;
   overflow-y: hidden;
+  background-color: black;
 }
 
-#banner {
-  width: 100vw;
+#mainCanvas {
   height: 100vh;
-  background-color: #00171F;
+  width: 100vw;
 }
 
 .star {

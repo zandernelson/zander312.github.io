@@ -9,12 +9,13 @@
   src="https://code.jquery.com/jquery-3.2.1.min.js"
   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
   crossorigin="anonymous"></script>
-  <script type="text/javascript" src="./index.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/paper.js/0.11.4/paper-full.min.js"></script>
+  <script type="text/paperscript" canvas="mainCanvas" src="./index.js"></script>
 </head>
 
+
 <body>
-	<div id="banner">
-	  <div class="space"></div>
-	</div>
+  <canvas id="mainCanvas" resize="true">
+  </canvas>
 </body>
 </html>
