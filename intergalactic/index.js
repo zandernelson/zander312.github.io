@@ -17,7 +17,8 @@ for (var i = 0; i < count; i++) {
 	// The center position is a random point in the view:
 	var center = Point.random() * view.size;
 	var placedSymbol = symbol.place(center);
-	placedSymbol.scale(0.10);
+	var sizes = [0.10, 0.20, 0.25, 0.30, 0.40, 0.70]
+	placedSymbol.scale(sample(sizes));
 }
 
 // The onFrame function is called up to 60 times a second:
@@ -38,3 +39,87 @@ function onFrame(event) {
 		}
 	}
 }
+
+function rand(min, max) {
+  console.log(Math.floor((Math.random() * max) + min))
+  return Math.floor((Math.random() * max) + min);
+}
+
+function sample(arr) {
+	return arr[rand(0, arr.length)]
+}
+
+
+
+
+// $(document).ready(() => {
+//   let universe = new Universe(300)
+//   universe.generateStars()
+//   universe.renderStars()
+//   universe.animateStars()
+
+// })
+
+// class Universe {
+//   constructor(size) {
+//     this.winX = window.innerWidth;
+//     this.winY = window.innerHeight;
+//     this.size = size;
+//     this.stars = [];
+//   }
+
+//   generateStars() {
+//     for (let i = 0; i < this.size; i++) {
+//       let $star = $("<div class='star'></div>")
+//       let size;
+//       i % 7 == 0 ? size = rand(5, 10) : size = rand(1, 5)
+//       $star.css({
+//         "top": rand(0, this.winY) + "px",
+//         "left": rand(0, this.winX) + "px",
+//         "height": size + "px",
+//         "width": size + "px",
+//         "borderRadius": size + "px"
+//       })
+//       this.stars.push($star)
+//     }
+//   }
+
+//   renderStars() {
+//     $('.space').prepend(this.stars)
+//   }
+
+//   animateStars() {
+//     this.stars.forEach((star) => {
+//       this.animateStar(star)
+//     })
+//   }
+
+//   animateStar(star) {
+//     let offset = star.offset()
+//     let duration = this.calcDuration(star)
+//     star.css({
+//       animation: ""
+//     })
+      
+      
+      
+//       // star.css({
+//       //   "left": (this.winX + 5) + "px"
+//       // })
+//       // this.animateStar(star)
+//   }
+
+//   calcDuration(star) {
+//     let offset = star.offset()
+//     let seconds = star.width() / .0002
+//     console.log(seconds)
+//     let speed = this.winX / seconds
+//     return offset.left / speed
+//   }
+// }
+
+
+// function rand(min, max) {
+//   console.log(Math.floor((Math.random() * max) + min))
+//   return Math.floor((Math.random() * max) + min);
+// }
