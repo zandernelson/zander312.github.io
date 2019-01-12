@@ -71,4 +71,16 @@ a {
 	#server-one, #server-two {
 		display: none;
 	}
+
+	#content-container {
+		height: 55vh;
+	}
+
+	#blurb {
+		padding-top: 5px;
+	}
+
+	#server-three {
+		height: 25vh;
+	}
 }
