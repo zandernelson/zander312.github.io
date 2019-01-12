@@ -1,11 +1,54 @@
+/*PAGE STYLING*/
+
 body {
   margin: 0;
   background-color: #333333;
 }
 
+/*CONTENT STYLING*/
+
+#blurb {
+	width: 400px;
+	padding-top: 40px;
+	display: inline-block;
+	text-align: left;
+}
+
+.title {
+	font-family: 'Lato', sans-serif;
+	font-weight: lighter;
+	font-size: 24px;
+	margin: 0px;
+}
+
+.bold-subtitle {
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+	font-size: 15px;
+	margin: 0px;
+}
+
+#pipes {
+  font-weight: lighter;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+.text {
+	font-family: 'Lato', sans-serif;
+	font-weight: lighter;
+}
+
+a {
+	color : white;
+}
+
+/*CONTAINER STYLING*/
+
 #content-container {
 	height: 65vh;
-	
+	text-align: center;
+	color: white;
 }
 
 #server-container {
@@ -15,9 +58,14 @@ body {
 	height: 35vh;
 }
 
+/*VIVUS STYLING*/
+
 #server-one, #server-two, #server-three {
 	visibility: hidden;
+	margin: 5px;
 }
+
+/*MEDIA QUERY*/
 
 @media screen and (max-width: 1200px) {
 	#server-one, #server-two {
