@@ -1,4 +1,25 @@
-* {
-	background-color: black;
+body {
+  margin: 0;
+  background-color: black;
 }
 
+#content-container {
+	height: 65vh;
+	
+}
+
+#server-container {
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	height: 35vh;
+}
+
+@media screen and (max-width: 1200px) {
+	#server-one {
+		display: none;
+	}
+	#server-two {
+		display: none;
+	}
+}
