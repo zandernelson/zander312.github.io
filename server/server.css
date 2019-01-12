@@ -18,3 +18,9 @@ body {
 #server-one, #server-two, #server-three {
 	visibility: hidden;
 }
+
+@media screen and (max-width: 1200px) {
+	#server-one, #server-two {
+		display: none;
+	}
+}
