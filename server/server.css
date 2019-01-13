@@ -89,6 +89,7 @@ a {
 	#blurb {
 		width: 360px;
 		padding-top: 5px;
+		text-align: justify;
 	}
 
 	.title {
