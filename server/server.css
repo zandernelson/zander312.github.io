@@ -81,14 +81,22 @@ a {
 		text-align: center;
 	}
 
+	#server-three {
+		height: 30vh;
+		margin-top: 35px;
+	}
+
 	#blurb {
 		width: 360px;
 		padding-top: 5px;
 	}
 
-	#server-three {
-		height: 30vh;
-		margin-top: 35px;
+	.title {
+		text-align: center;
+	}
+
+	.bold-subtitle {
+		text-align: center;
 	}
 
 }
