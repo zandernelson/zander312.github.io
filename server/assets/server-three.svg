@@ -13,7 +13,7 @@
 <rect x="164.599" y="10.892" width="10.1748" height="118.987" rx="4" stroke="white" stroke-width="2"/>
 <rect x="19.2622" y="23.0668" width="112.9" height="58.1131" rx="4" stroke="white" stroke-width="2"/>
 <rect x="19.2622" y="91.5501" width="112.9" height="10.9357" rx="4" stroke="white" stroke-width="2"/>
-<rect x="26.1106" y="29.9152" width="7.13111" height="7.13111" rx="3.56555" stroke="white" stroke-width="2"/>
+<rect class="blink" x="26.1106" y="29.9152" width="7.13111" height="7.13111" rx="3.56555" stroke="white" stroke-width="2"/>
 <rect x="39.0463" y="29.9152" width="7.13111" height="7.13111" rx="3.56555" stroke="white" stroke-width="2"/>
 <rect x="51.9821" y="29.9152" width="7.13111" height="7.13111" rx="3.56555" stroke="white" stroke-width="2"/>
 <rect x="64.9177" y="29.9152" width="7.13111" height="7.13111" rx="3.56555" stroke="white" stroke-width="2"/>
@@ -37,11 +37,11 @@
 <rect x="214.342" y="314.784" width="7.13111" height="7.13111" rx="3.56555" transform="rotate(-180 214.342 314.784)" stroke="white" stroke-width="2"/>
 <rect x="201.406" y="314.784" width="7.13111" height="7.13111" rx="3.56555" transform="rotate(-180 201.406 314.784)" stroke="white" stroke-width="2"/>
 <rect x="188.47" y="314.023" width="118.987" height="7.13111" rx="3.56555" transform="rotate(-180 188.47 314.023)" stroke="white" stroke-width="2"/>
-<rect x="69.4833" y="357.874" width="7.13111" height="7.13111" rx="3.56555" stroke="white" stroke-width="2"/>
+<rect class="blink" x="69.4833" y="357.874" width="7.13111" height="7.13111" rx="3.56555" stroke="white" stroke-width="2"/>
 <rect x="82.4191" y="357.874" width="7.13111" height="7.13111" rx="3.56555" stroke="white" stroke-width="2"/>
 <rect x="95.3547" y="357.874" width="7.13111" height="7.13111" rx="3.56555" stroke="white" stroke-width="2"/>
 <rect x="108.291" y="358.635" width="118.987" height="7.13111" rx="3.56555" stroke="white" stroke-width="2"/>
-<rect x="227.278" y="415.987" width="7.13111" height="7.13111" rx="3.56555" transform="rotate(-180 227.278 415.987)" stroke="white" stroke-width="2"/>
+<rect class="blink" x="227.278" y="415.987" width="7.13111" height="7.13111" rx="3.56555" transform="rotate(-180 227.278 415.987)" stroke="white" stroke-width="2"/>
 <rect x="214.342" y="415.987" width="7.13111" height="7.13111" rx="3.56555" transform="rotate(-180 214.342 415.987)" stroke="white" stroke-width="2"/>
 <rect x="201.406" y="415.987" width="7.13111" height="7.13111" rx="3.56555" transform="rotate(-180 201.406 415.987)" stroke="white" stroke-width="2"/>
 <rect x="188.47" y="415.226" width="118.987" height="7.13111" rx="3.56555" transform="rotate(-180 188.47 415.226)" stroke="white" stroke-width="2"/>

@@ -19,7 +19,7 @@
 <rect x="9.3866" y="297.582" width="277.809" height="35.3587" rx="4" stroke="white" stroke-width="2"/>
 <rect x="9.3866" y="344.853" width="277.809" height="35.3587" rx="4" stroke="white" stroke-width="2"/>
 <rect x="9.3866" y="392.123" width="277.809" height="84.9161" rx="4" stroke="white" stroke-width="2"/>
-<rect x="219.815" y="25.3975" width="11.7236" height="12.486" rx="5.8618" stroke="white" stroke-width="2"/>
+<rect class="blink" x="219.815" y="25.3975" width="11.7236" height="12.486" rx="5.8618" stroke="white" stroke-width="2"/>
 <rect x="241.163" y="25.3975" width="11.7236" height="12.486" rx="5.8618" stroke="white" stroke-width="2"/>
 <rect x="262.511" y="25.3975" width="11.7236" height="12.486" rx="5.8618" stroke="white" stroke-width="2"/>
 <rect x="219.815" y="72.6677" width="11.7236" height="12.486" rx="5.8618" stroke="white" stroke-width="2"/>
@@ -45,7 +45,7 @@
 <rect x="262.511" y="356.289" width="11.7236" height="12.486" rx="5.8618" stroke="white" stroke-width="2"/>
 <rect x="87.9161" y="399.747" width="11.7236" height="12.486" rx="5.8618" stroke="white" stroke-width="2"/>
 <rect x="109.264" y="399.747" width="11.7236" height="12.486" rx="5.8618" stroke="white" stroke-width="2"/>
-<rect x="130.612" y="399.747" width="11.7236" height="12.486" rx="5.8618" stroke="white" stroke-width="2"/>
+<rect class="blink" x="130.612" y="399.747" width="11.7236" height="12.486" rx="5.8618" stroke="white" stroke-width="2"/>
 <rect x="23.8727" y="399.747" width="11.7236" height="12.486" rx="5.8618" stroke="white" stroke-width="2"/>
 <rect x="45.2205" y="399.747" width="11.7236" height="12.486" rx="5.8618" stroke="white" stroke-width="2"/>
 <rect x="66.5684" y="399.747" width="11.7236" height="12.486" rx="5.8618" stroke="white" stroke-width="2"/>
@@ -68,5 +68,5 @@
 <rect x="45.2205" y="456.929" width="11.7236" height="12.486" rx="5.8618" stroke="white" stroke-width="2"/>
 <rect x="66.5684" y="456.929" width="11.7236" height="12.486" rx="5.8618" stroke="white" stroke-width="2"/>
 <circle cx="54.5131" cy="51.4635" r="45.1266" stroke="white" stroke-width="2"/>
-<circle cx="54.132" cy="51.8447" r="15.0109" stroke="white" stroke-width="2"/>
+<circle class="blink" cx="54.132" cy="51.8447" r="15.0109" stroke="white" stroke-width="2"/>
 </svg>
