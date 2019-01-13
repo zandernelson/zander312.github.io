@@ -76,12 +76,15 @@ a {
 		height: 43vh;
 	}
 
+	#server-container {
+		display: block;
+		text-align: center;
+	}
+
 	#blurb {
 		width: 360px;
 		padding-top: 5px;
 	}
 
-	#server-three {
-		height: 35vh;
-	}
+
 }
