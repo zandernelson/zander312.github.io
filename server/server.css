@@ -86,5 +86,8 @@ a {
 		padding-top: 5px;
 	}
 
+	#server-one {
+		height: 30vh;
+	}
 
 }
