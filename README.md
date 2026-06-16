@@ -1,5 +1,5 @@
-# zander312.github.io
+# Zander Nelson
 
-This is my personal website. Check it out.
+Personal website published with GitHub Pages.
 
-http://zandernelson.com/
+Live site: https://zandernelson.github.io/zander312.github.io/
