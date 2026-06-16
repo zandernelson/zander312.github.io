@@ -1,0 +1,131 @@
+/*PAGE STYLING*/
+
+body {
+  margin: 0;
+  background-color: #333333;
+}
+
+/*CONTENT STYLING*/
+
+#blurb {
+	width: 500px;
+	padding-top: 40px;
+	display: inline-block;
+	text-align: left;
+}
+
+.title {
+	font-family: 'Lato', sans-serif;
+	font-weight: lighter;
+	font-size: 24px;
+	margin: 0px;
+}
+
+.bold-subtitle {
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+	font-size: 15px;
+	margin: 0px;
+}
+
+.pipes {
+  font-weight: lighter;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+.text {
+	font-family: 'Lato', sans-serif;
+	font-weight: lighter;
+}
+
+a {
+	color : white;
+}
+
+.sketch-nav {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 8px;
+	margin-top: 18px;
+	font-family: 'Lato', sans-serif;
+}
+
+.sketch-nav a {
+	border: 1px solid rgba(255, 255, 255, 0.35);
+	border-radius: 4px;
+	padding: 7px 10px;
+	font-size: 13px;
+	font-weight: bold;
+	text-decoration: none;
+	transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.sketch-nav a:hover,
+.sketch-nav a:focus {
+	background-color: #FEFEFA;
+	color: #333333;
+}
+
+/*CONTAINER STYLING*/
+
+#content-container {
+	height: 65vh;
+	text-align: center;
+	color: white;
+}
+
+#server-container {
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	height: 35vh;
+}
+
+/*VIVUS STYLING*/
+
+#server-one, #server-two, #server-three {
+	visibility: hidden;
+	margin: 5px;
+}
+
+/*MEDIA QUERY*/
+
+@media screen and (max-width: 1200px) {
+	#server-one, #server-two {
+		display: none;
+	}
+
+	#content-container {
+		height: 43vh;
+	}
+
+	#server-container {
+		display: block;
+		text-align: center;
+	}
+
+	#server-three {
+		height: 30vh;
+		margin-top: 35px;
+	}
+
+	#blurb {
+		width: 360px;
+		padding-top: 5px;
+		text-align: justify;
+	}
+
+	.sketch-nav {
+		justify-content: center;
+	}
+
+	.title {
+		text-align: center;
+	}
+
+	.bold-subtitle {
+		text-align: center;
+	}
+
+}
