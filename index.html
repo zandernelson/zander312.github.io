@@ -8,74 +8,74 @@
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="https://zandernelson.github.io/zander312.github.io/">
     <link href="favicon.ico" rel="shortcut icon" type="image/x-icon">
-    <link rel="stylesheet" href="server/server.css">
+    <link rel="stylesheet" href="site.css">
+    <script src="space.js" defer></script>
   </head>
   <body>
-    <main class="hero">
-      <div class="server-visual" aria-hidden="true">
-        <img class="server server-one" src="server/assets/server-one.svg" alt="">
-        <img class="server server-three" src="server/assets/server-three.svg" alt="">
-        <img class="server server-two" src="server/assets/server-two.svg" alt="">
-      </div>
+    <canvas id="space-canvas" aria-hidden="true"></canvas>
 
-      <section class="intro" aria-labelledby="page-title">
-        <p class="eyebrow">Platform / security / cloud</p>
+    <main class="page-shell">
+      <section class="hero" aria-labelledby="page-title">
+        <p class="kicker">Platform / security / cloud</p>
         <h1 id="page-title">Zander Nelson</h1>
         <p class="lede">
           I build pragmatic infrastructure and software systems across cloud platforms,
           automation, developer tooling, and web applications.
         </p>
         <p class="summary">
-          Recent work is focused around Vault, Terraform, AWS, Kubernetes, and the practical
+          Recent work centers on Vault, Terraform, AWS, Kubernetes, and the practical
           mechanics of making complex systems easier to operate.
         </p>
-        <nav class="links" aria-label="Profile links">
+        <nav class="button-row" aria-label="Profile links">
           <a href="https://github.com/zandernelson" rel="noopener">GitHub</a>
           <a href="https://www.linkedin.com/in/alexander-nelson-68561165" rel="noopener">LinkedIn</a>
           <a href="mailto:iskander93@gmail.com">Email</a>
         </nav>
       </section>
-    </main>
 
-    <section class="work" aria-labelledby="work-title">
-      <div class="section-inner">
-        <h2 id="work-title">Selected Public Work</h2>
-        <div class="project-grid">
-          <article class="project">
-            <p class="project-type">Realtime app</p>
+      <section class="content-section" aria-labelledby="work-title">
+        <div class="section-heading">
+          <p class="kicker">Public work</p>
+          <h2 id="work-title">Selected Repos</h2>
+        </div>
+
+        <div class="card-grid">
+          <article class="card">
+            <p class="card-label">Realtime app</p>
             <h3>Multiplayer Tic Tac Toe</h3>
             <p>Socket.IO game server with board-state logic and tests from an older React/Express project.</p>
             <a href="https://github.com/zandernelson/tictactoe-multiplayer-server" rel="noopener">Repository</a>
           </article>
 
-          <article class="project">
-            <p class="project-type">Interactive UI</p>
+          <article class="card">
+            <p class="card-label">Interactive UI</p>
             <h3>US States Map</h3>
             <p>React SVG map experiment with state hover behavior and data display patterns.</p>
             <a href="https://github.com/zandernelson/us-states-map" rel="noopener">Repository</a>
           </article>
 
-          <article class="project">
-            <p class="project-type">Platform demo</p>
+          <article class="card">
+            <p class="card-label">Platform demo</p>
             <h3>Istio Microservices Demo</h3>
             <p>Small Kubernetes microservices demo used for service-mesh and container workflow experiments.</p>
             <a href="https://github.com/zandernelson/khyber-solutions-istio-demo" rel="noopener">Repository</a>
           </article>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section class="experiments" aria-labelledby="experiments-title">
-      <div class="section-inner experiment-layout">
-        <h2 id="experiments-title">Older Visual Sketches</h2>
-        <div class="experiment-links">
-          <a href="computer/computer.html">Computer</a>
-          <a href="darkrain/darkrain.html">Dark Rain</a>
-          <a href="intergalactic/index.html">Intergalactic</a>
+      <section class="content-section archive-section" aria-labelledby="archive-title">
+        <div class="section-heading">
+          <p class="kicker">Archive</p>
+          <h2 id="archive-title">Older Visual Sketches</h2>
         </div>
-      </div>
-    </section>
 
-    <script src="server/server.js"></script>
+        <div class="archive-links">
+          <a class="featured-link" href="archive/intergalactic/index.html">Intergalactic</a>
+          <a href="archive/computer/computer.html">Computer</a>
+          <a href="archive/darkrain/darkrain.html">Dark Rain</a>
+          <a href="archive/server/server.html">Server Rack</a>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
